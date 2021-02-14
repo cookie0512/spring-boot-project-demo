@@ -15,4 +15,9 @@ public class TestController {
         String hostAddress = Inet4Address.getLocalHost().getHostAddress();
         return hostAddress;
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "Hello From Cookie~";
+    }
 }
