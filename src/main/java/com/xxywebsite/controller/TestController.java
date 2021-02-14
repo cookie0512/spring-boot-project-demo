@@ -90,5 +90,10 @@ public class TestController {
     public String hello16() {
         return "hello16";
     }
+
+    @GetMapping("/hello17")
+    public String hello17() {
+        return "hello17";
+    }
 }
 
