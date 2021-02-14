@@ -20,4 +20,9 @@ public class TestController {
     public String hello() {
         return "Hello From Cookie~";
     }
+
+    @GetMapping("/hello2")
+    public String hello2() {
+        return "Hello2";
+    }
 }
