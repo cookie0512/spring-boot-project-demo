@@ -40,4 +40,10 @@ public class TestController {
     public String hello5() {
         return "hello5";
     }
+
+    @GetMapping("/hello6")
+    public String hello6() {
+        return "hello6";
+    }
 }
+
